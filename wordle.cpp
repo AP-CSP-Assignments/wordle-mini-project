@@ -11,17 +11,20 @@
 #include <string>    // std::string, std::getline
 #include <vector>    // std::vector
 
-std::vector<int> createSecret() {
+std::vector<int> createSecret()
+{
     // Write this procedure here
     return {};    // replace this with your code
 }
 
-std::vector<std::string> getHint(std::vector<int> secret, std::vector<int> guess) {
+std::vector<std::string> getHint(std::vector<int> secret, std::vector<int> guess)
+{
     // Write this procedure here
     return {"X", "X", "X", "X"};    // replace this with your code
 }
 
-bool winGame(std::vector<int> secret, std::vector<int> guess) {
+bool winGame(std::vector<int> secret, std::vector<int> guess)
+{
     if (secret.size() != guess.size())
     {
         return false;
