@@ -1,3 +1,8 @@
+/** listhelpers.hpp
+ * This file has been provided as starter code by the instructor.
+ * It implements methods that mimic the AP CSP List procedures.
+ */
+
 #ifndef _LISTHELPERS_HPP_
 #define _LISTHELPERS_HPP_
 
